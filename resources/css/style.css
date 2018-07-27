@@ -1,5 +1,23 @@
-= = = = = = = = = = = = = Stylesheet for Broadway = = = = = = = = = = = = = = =
+body {
+  font-family: helvetica, sans-serif;
+}
 
-html {
-  
+.hero-image {
+  background-image:
+  url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.top-nav {
+  font-size: 18px;
+  color: white;
 }
